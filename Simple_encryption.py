@@ -41,7 +41,7 @@ def uncrypt(encrypted,key):
         uncrypted.append(key[x])
     return "".join(uncrypted)
 
-def test1():
+def test1():     #remove function
     a=key_gen()
     print(a)
 
@@ -85,7 +85,7 @@ def uncrypt_file(file,key):
 #print(uncrypt_file(file1,key_unjoin(key5)))
 
 
-
+# write in a function
 input1=input("e=encrypt, d=decrypt")
 if input1 == "e":
     file_name=input("file to encrypt")
